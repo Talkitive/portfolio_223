@@ -1,0 +1,73 @@
+@media all and (max-width: 360px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .body{
+        width: 100vw;
+        height: 100vh;
+        background-color: gold;
+    }
+    
+    .dp{
+        border-radius: 100%;
+        position: relative;
+        left: 31vw;
+        top: 22vh;
+    
+    }
+    
+    .visitdiv{
+        position: relative;
+        top: 25vh;
+        left: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 42vw;
+        height: 8vh;
+        border-radius: 30px;
+        background-color: white;
+        transition-property: background-color, width, height;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .visitdiv:hover{
+        background-color: bisque;
+        width: 44vw;
+        height: 9vh;
+    }
+    
+    .visit{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .github{
+        position: relative;
+        top: 294px;
+        left: 58px;
+    }
+    
+    .insta{
+        position: relative;
+        top: 308px;
+        left: 33px;
+    }
+    
+    .linkedin{
+        position: relative;
+        top: 314px;
+        left: -1px;
+    }
+    
+    .fb{
+        position: relative;
+        top: 304px;
+        left: -37px;
+    }
+    
+}

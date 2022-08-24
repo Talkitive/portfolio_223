@@ -1,0 +1,981 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.headvideo {
+    position: relative;
+    bottom: 19vh;
+    left: 38vw;
+}
+
+.refresh {
+    width: 12vw;
+    height: 10vh;
+    background-color: #CED4DA;
+    border-radius: 30px;
+    position: relative;
+    bottom: 32vh;
+    left: -7vw;
+    transition-property: background-color, width, height;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.refresh:hover {
+    background-color: bisque;
+    width: 13vw;
+    height: 11vh;
+    /* bottom: 32vh;
+    left: -7vw; */
+}
+
+.refreshbutton {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    position: relative;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+    width: 100vw;
+    height: 206vh;
+    background-color: #CED4DA;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.bodyleft1 {
+    background-color: white;
+    width: 49vw;
+    height: 61vh;
+    position: relative;
+    left: 13vw;
+    top: 7vh;
+    border-radius: 30px;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.bodyleft1:hover {
+    background-color: bisque;
+}
+
+.coverpic {
+    border-radius: 30px;
+}
+
+.dp {
+    position: relative;
+    left: 2vw;
+    bottom: 16vh;
+    border-radius: 100%;
+    border: 6px solid white;
+}
+
+.dpname {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    position: relative;
+    left: 2vw;
+    bottom: 13vh;
+}
+
+.dpnameinfo1 {
+    color: black;
+    font-size: 3vh;
+    font-family: 'Lora', serif;
+    position: relative;
+    left: 2vw;
+    bottom: 11vh;
+}
+
+.dpnameinfo2 {
+    color: black;
+    font-size: 3vh;
+    font-family: 'Lora', serif;
+    position: relative;
+    left: 2vw;
+    bottom: 9vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyleft2 {
+    background-color: white;
+    width: 49vw;
+    height: 37vh;
+    position: relative;
+    border-radius: 30px;
+    top: 15vh;
+    left: 13vw;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.bodyleft2:hover {
+    background-color: bisque;
+}
+
+.aboutme {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    position: relative;
+    left: 2vw;
+    bottom: 8vh;
+}
+
+.aboutmecontent {
+    color: black;
+    font-size: 3vh;
+    font-family: 'Lora', serif;
+    position: relative;
+    left: 2vw;
+    bottom: 4vh;
+}
+
+.github {
+    position: relative;
+    left: 40vw;
+    z-index: 2;
+    bottom: -80vh;
+}
+
+.insta {
+    position: relative;
+    top: 83vh;
+    left: 20vw;
+}
+
+.fb {
+    position: relative;
+    top: 82vh;
+    left: 12vw;
+}
+
+.linkedin {
+    position: relative;
+    top: 83vh;
+    left: 23vw;
+}
+
+.copyright {
+    font-family: 'Lora', serif;
+    font-size: 2vh;
+    position: relative;
+    top: 84vh;
+    left: 28vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyright1 {
+    background-color: white;
+    width: 21vw;
+    height: 36vh;
+    position: relative;
+    border-radius: 30px;
+    left: 66vw;
+    bottom: 91vh;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.bodyright1:hover {
+    background-color: bisque;
+}
+
+.education {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    position: relative;
+    left: 4vw;
+    top: 4vh;
+}
+
+.educationcontent1 {
+    color: black;
+    font-size: larger;
+    font-family: 'Lora', serif;
+    position: relative;
+    left: 1vw;
+    top: 9vh;
+}
+
+.educationcontent2 {
+    color: black;
+    font-size: larger;
+    font-family: 'Lora', serif;
+    position: relative;
+    left: 1vw;
+    top: 12vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyright2 {
+    background-color: white;
+    width: 21vw;
+    height: 62vh;
+    position: relative;
+    border-radius: 30px;
+    left: 66vw;
+    bottom: 83vh;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.bodyright2:hover {
+    background-color: bisque;
+}
+
+.skills {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+    position: relative;
+    left: 7vw;
+    top: 5vh;
+}
+
+.htmlskill {
+    background-color: #CED4DA;
+    width: 9vw;
+    height: 9vh;
+    position: relative;
+    border-radius: 30px;
+    left: 3vw;
+    top: 11vh;
+    transition-property: background-color, width, height;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.htmlskill:hover {
+    background-color: white;
+    width: 10vw;
+    height: 10vh;
+}
+
+.cssskill {
+    background-color: #CED4DA;
+    width: 9vw;
+    height: 9vh;
+    position: relative;
+    border-radius: 30px;
+    left: 3vw;
+    top: 15vh;
+    transition-property: background-color, width, height;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.cssskill:hover {
+    background-color: white;
+    width: 10vw;
+    height: 10vh;
+}
+
+.javaskill {
+    background-color: #CED4DA;
+    width: 13vw;
+    height: 12vh;
+    position: relative;
+    border-radius: 30px;
+    left: 3vw;
+    top: 19vh;
+    transition-property: background-color, width, height;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.javaskill:hover {
+    background-color: white;
+    width: 17vw;
+    height: 13vh;
+}
+
+.html {
+    color: black;
+    font-size: 3vh;
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+}
+
+.css {
+    color: black;
+    font-size: 3vh;
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+}
+
+.java {
+    color: black;
+    font-size: 3vh;
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+}
+
+
+
+
+@media all and (max-width: 428px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        width: 100%;
+        height: 11vh;
+        background-color: white;
+        top: 0;
+        position: sticky;
+        z-index: 10;
+    }
+    
+    .headvideo {
+        position: relative;
+        bottom: 19vh;
+        left: 38vw;
+    }
+    
+    .refresh {
+        width: 28vw;
+height: 9vh;
+background-color: #CED4DA;
+border-radius: 30px;
+position: relative;
+bottom: 26vh;
+left: -59vw;
+transition-property: background-color, height;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+    }
+    
+    .refresh:hover {
+        background-color: bisque;
+        /* width: 13vw; */
+        height: 11vh;
+        /* bottom: 32vh;
+        left: -7vw; */
+    }
+    
+    .refreshbutton {
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        position: relative;
+        font-size: x-large;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .body {
+        width: 100vw;
+        height: 206vh;
+        background-color: #CED4DA;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+    .bodyleft1 {
+        background-color: white;
+width: 94vw;
+height: 43vh;
+position: relative;
+left: 3vw;
+top: 6vh;
+border-radius: 30px;
+transition-property: background-color;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+    }
+    
+    .bodyleft1:hover {
+        background-color: bisque;
+    }
+    
+    .coverpic {
+        border-radius: 30px;
+        width: 402px;
+        height: 120px;
+    }
+    
+    .dp {
+        position: relative;
+left: 8vw;
+bottom: 9vh;
+border-radius: 100%;
+border: 5px solid white;
+width: 125px;
+height: 125px;
+    }
+    
+    .dpname {
+        color: black;
+font-family: 'Poppins', sans-serif;
+font-size: 2em;
+position: relative;
+left: 8vw;
+bottom: 8vh;
+    }
+    
+    .dpnameinfo1 {
+        color: black;
+        font-size: 1.3em;
+        font-family: 'Lora', serif;
+        position: relative;
+        left: 8vw;
+        bottom: 6vh;
+    }
+    
+    .dpnameinfo2 {
+        color: black;
+        font-size: 2vh;
+        font-family: 'Lora', serif;
+        position: relative;
+        left: 8vw;
+        bottom: 4vh;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .bodyleft2 {
+        background-color: white;
+width: 94vw;
+height: 71vh;
+position: relative;
+border-radius: 30px;
+top: 12vh;
+left: 3vw;
+transition-property: background-color;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+    }
+    
+    .bodyleft2:hover {
+        background-color: bisque;
+    }
+    
+    .aboutme {
+        color: black;
+font-family: 'Poppins', sans-serif;
+font-size: 3.5vh;
+position: relative;
+left: 27vw;
+bottom: 40vh;
+    }
+    
+    .aboutmecontent {
+        color: black;
+font-size: 1em;
+font-family: 'Lora', serif;
+position: relative;
+left: 2vw;
+bottom: 37vh;
+    }
+    
+    .github {
+        position: relative;
+        left: 12vw;
+        z-index: 2;
+        bottom: -93vh;
+    }
+    
+    .insta {
+        position: relative;
+        top: 876px;
+        left: 10vw;
+    }
+    
+    .fb {
+        position: relative;
+top: 873px;
+left: 2vw;
+    }
+    
+    .linkedin {
+        position: relative;
+top: 883px;
+left: 6vw;
+    }
+    
+    .copyright {
+        font-family: 'Lora', serif;
+font-size: 2vh;
+position: relative;
+top: 89vh;
+left: 14vw; 
+    }
+
+    .skills {
+        color: black;
+font-family: 'Poppins', sans-serif;
+font-size: 3.5vh;
+position: relative;
+left: 16vw;
+top: 24vh;
+    }
+    
+    .htmlskill {
+        background-color: #CED4DA;
+width: 35vw;
+height: 8vh;
+position: relative;
+border-radius: 30px;
+left: 7vw;
+top: 29vh;
+transition-property: background-color, width, height;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+    }
+    
+    .htmlskill:hover {
+        background-color: white;
+        width: 10vw;
+        height: 10vh;
+    }
+    
+    .cssskill {
+        background-color: #CED4DA;
+width: 35vw;
+height: 8vh;
+position: relative;
+border-radius: 30px;
+left: 7vw;
+top: 32vh;
+transition-property: background-color, width, height;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+    }
+    
+    .cssskill:hover {
+        background-color: white;
+        width: 10vw;
+        height: 10vh;
+    }
+    
+    .javaskill {
+        background-color: #CED4DA;
+width: 65vw;
+height: 9vh;
+position: relative;
+border-radius: 30px;
+left: 7vw;
+top: 35vh;
+transition-property: background-color, width, height;
+transition-duration: 300ms;
+transition-timing-function: ease-in-out;
+    }
+    
+    .javaskill:hover {
+        background-color: white;
+        width: 17vw;
+        height: 13vh;
+    }
+    
+    .html {
+        color: black;
+font-size: 1.6em;
+font-family: 'Lora', serif;
+position: relative;
+top: 19px;
+left: 8vw;
+    }
+    
+    .css {
+        color: black;
+        font-size: 1.6em;
+        font-family: 'Lora', serif;
+        position: relative;
+        top: 2vh;
+        left: 10vw;
+    }
+    
+    .java {
+        color: black;
+font-size: 1.6em;
+font-family: 'Lora', serif;
+position: relative;
+top: 24px;
+left: 4vw;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .bodyright1 {
+        background-color: white;
+        width: 94vw;
+        height: 30vh;
+        position: relative;
+        border-radius: 30px;
+        left: 3vw;
+        bottom: -19vh;
+        transition-property: background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .bodyright1:hover {
+        background-color: bisque;
+    }
+    
+    .education {
+        color: black;
+font-family: 'Poppins', sans-serif;
+font-size: 3.5vh;
+position: relative;
+left: 18vw;
+top: 3vh;
+    }
+    
+    .educationcontent1 {
+        color: black;
+        font-size: larger;
+        font-family: 'Lora', serif;
+        position: relative;
+        left: 4vw;
+        top: 9vh;
+    }
+    
+    .educationcontent2 {
+        color: black;
+font-size: larger;
+font-family: 'Lora', serif;
+position: relative;
+left: 4vw;
+top: 12vh;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*     
+    .bodyright2 {
+        background-color: white;
+        width: 21vw;
+        height: 62vh;
+        position: relative;
+        border-radius: 30px;
+        left: 66vw;
+        bottom: 83vh;
+        transition-property: background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .bodyright2:hover {
+        background-color: bisque;
+    } */
+    
+    /* .skills {
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 4vh;
+        position: relative;
+        left: 7vw;
+        top: 5vh;
+    }
+    
+    .htmlskill {
+        background-color: #CED4DA;
+        width: 9vw;
+        height: 9vh;
+        position: relative;
+        border-radius: 30px;
+        left: 3vw;
+        top: 11vh;
+        transition-property: background-color, width, height;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .htmlskill:hover {
+        background-color: white;
+        width: 10vw;
+        height: 10vh;
+    }
+    
+    .cssskill {
+        background-color: #CED4DA;
+        width: 9vw;
+        height: 9vh;
+        position: relative;
+        border-radius: 30px;
+        left: 3vw;
+        top: 15vh;
+        transition-property: background-color, width, height;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .cssskill:hover {
+        background-color: white;
+        width: 10vw;
+        height: 10vh;
+    }
+    
+    .javaskill {
+        background-color: #CED4DA;
+        width: 13vw;
+        height: 12vh;
+        position: relative;
+        border-radius: 30px;
+        left: 3vw;
+        top: 19vh;
+        transition-property: background-color, width, height;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .javaskill:hover {
+        background-color: white;
+        width: 17vw;
+        height: 13vh;
+    }
+    
+    .html {
+        color: black;
+        font-size: 3vh;
+        font-family: 'Lora', serif;
+        position: relative;
+        top: 2vh;
+        left: 2vw;
+    }
+    
+    .css {
+        color: black;
+        font-size: 3vh;
+        font-family: 'Lora', serif;
+        position: relative;
+        top: 2vh;
+        left: 2vw;
+    }
+    
+    .java {
+        color: black;
+        font-size: 3vh;
+        font-family: 'Lora', serif;
+        position: relative;
+        top: 2vh;
+        left: 2vw;
+    } */
+    
+}
